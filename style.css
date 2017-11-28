@@ -107,3 +107,39 @@ input[type="number"]:focus{border-color:#151F1F;}
                         </td>
                     </tr>
                 </table>*/
+
+
+
+
+    
+/*
+//
+//
+//    var currencies =['USD','AUD','BGN','BRL','CAD','CHF','CNY','CZK','DKK','GBP','HKD','HRK','HUF','IDR','ILS','INR','JPY','KRW','MXN','MYR','NOK','NZD','PHP','PLN','RON','RUB','SEK','SGD','THB','TRY','EUR'];
+//
+//    var cur = document.getElementById('CurrencyList');
+//    var fragment = document.createDocumentFragment();
+//    currencies.forEach(function(currency, index){
+//        var opt = document.createElement('option');
+//        opt.innerHTML = currency;
+//        opt.value = currency;
+//        fragment.appendChild(opt);
+//
+//    });
+//
+//    cur.appendChild(fragment);
+//
+//    var cur2 = document.getElementById('CurrencyList2');
+//    var fragment = document.createDocumentFragment();
+//    currencies.forEach(function(currency, index){
+//        var opt = document.createElement('option');
+//        opt.innerHTML = currency;
+//        opt.value = currency;
+//        fragment.appendChild(opt);
+//
+//    });
+//
+//    cur2.appendChild(fragment);
+//    console.log(typeof(cur));
+//    console.log(fragment);
+//    console.log(cur2);*/
