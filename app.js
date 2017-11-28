@@ -1,7 +1,7 @@
     
 
 
-    var currencies =['USD','AUD','BGN','BRL','CAD','CHF','CNY','CZK','DKK','GBP','HKD','HRK','HUF','IDR','ILS','INR','JPY','KRW','MXN','MYR','NOK','NZD','PHP','PLN','RON','RUB','SEK','SGD','THB','TRY','ZAR','EUR'];
+    var currencies =['USD','AUD','BGN','BRL','CAD','CHF','CNY','CZK','DKK','GBP','HKD','HRK','HUF','IDR','ILS','INR','JPY','KRW','MXN','MYR','NOK','NZD','PHP','PLN','RON','RUB','SEK','SGD','THB','TRY','EUR'];
 
     var cur = document.getElementById('CurrencyList');
     var fragment = document.createDocumentFragment();
@@ -38,7 +38,7 @@ function convertCurrency(){
     console.log(to);
     console.log(from);
     var xmlhttp = new XMLHttpRequest();
-    var url = 'http://api.fixer.io/latest?base=ZAR?symbols=' + from + ',' + to;
+    var url = 'http://api.fixer.io/latest?base=ZAR&symbols=' + from + ',' + to;
     
     xmlhttp.open('GET',url,true);
     xmlhttp.send();
