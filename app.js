@@ -11,6 +11,7 @@
                 for(key in obj.rates){
                     options=options+ '<option>'+key+'</option>';
                 }
+                options += "<option>EUR</option>";
                 from.innerHTML = options;
                 to.innerHTML = options;
                 }
